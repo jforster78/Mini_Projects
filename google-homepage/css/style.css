@@ -1,0 +1,121 @@
+html, body, a {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Navigation */
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 8px;
+}
+
+.navigation {
+	float: right;
+	padding: 15px 8px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #666;
+}
+
+#signbtn {
+	float: right;
+	margin: 8px 22px;
+	padding: 8px 14px 8px 14px;
+	background-color: #198cff;
+	color: #fff;
+	border: none;
+	font-size: 13px;
+	text-shadow: 1px;
+	text-decoration: none;
+}
+
+#apps 
+{
+	float: right;
+	margin-top: 11px;
+	padding: 0px 1px 0px 10px;
+}
+
+/* Main */
+
+main {
+	text-align: center;
+	position: relative;
+	top: 130px
+}
+
+.searchbtn {
+	margin: 8px 2px;
+	padding: 10px 15px 10px 15px;
+	background-color: #f2f2f2;
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+	border: 1px solid #f2f2f2;
+	text-decoration: none;
+}
+
+.searchbtn:hover {
+	color: #000;
+	border: 1px solid #c6c6c6;
+}
+
+#searchbar {
+	margin: 5px;
+	padding: 3px 0px 3px 15px;
+	width: 580px;
+	height: 45px;
+	border-radius: 1px;
+	border: 1px solid #e8e8e8;
+	box-shadow: 0px 2px 2px #cbcbcb;
+	background-image: url('images/googlemic.png');
+	background-repeat: no-repeat;
+	background-position: right 15px center;
+	background-size: 15px;
+}
+
+#logo {
+	clear: right;
+	padding: 12px 12px;
+}
+
+/* Footer */
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+	border-top: 1px solid #e4e4e4;
+	font-size: 13px;
+	background: #f2f2f2;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 12px;
+	padding: 0px 0px 0px 8px;
+}
+
+footer li {
+	display: inline;
+	padding: 10px 14px;
+}
+
+#right {
+	float: right;
+}
+
+#left {
+	float: left;
+}
+
